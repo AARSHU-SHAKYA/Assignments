@@ -4,34 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
 <body>
     <style>
         *{
-            background: #05131c;
+            padding:0;
+            margin:0;
+            box-sizing: border-box;
+            background:#bd9dea;
         }
-        .content a{
-            display:flex;
-            justify-content:center;
-            align-items: center;
-            text-decoration:none;
-            font-size: 30px;
-            color:#ededed;
-            display:flex;
-            flex-direction: column;
-            line-height: 2;
-            padding-top:10px;
-        }
-    .content a:hover{
-        color: rgb(234, 139, 155);
-        transition: .5s;
+
+    .html,body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
+
+    .notes-main {
+    padding: 27px;
+    color: #aad7da;
+}
+
+.notes-main ul {
+    list-style:none;
+    font-size: 20px;
+}
+
+.notes-main ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.notes-main ul li a {
+    text-decoration: none;
+    color: rgb(56, 4, 43);
+}
+
+.notes-main h2 {
+    font-size:40px;
+    font-style: normal;
+    padding-left: 20px;
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  margin-left:45px;
+
+}
+
+.list {
+    padding: 10px;
+    height: 50px;
+    width: 300px;
+    line-height:1.2;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.body :hover{
+    transition: 0.4s ease-in-out;
+    background-color:#aad7da;
+    color: #351559;
+    border-radius: 25px;
+    -webkit-box-shadow:0px 0px 120px 23px rgba #aad7da;
+    transform: scale(115%);
+}
     </style>
-    <div class="content">
-    <a href="index.html">Home Page</a>
-    <a href="dbms-terminology.html">Database terminology in html</a>
-    <a href="Implementation-of-Database.html">Implementation-of-Database</a>
-    <a href="sqlcodes.html">SQL Codes</a>
-</div>
+   <div class="notes">
+    <div class="notes-main" id="notes-main">
+        <h2 style="color:#351559;">Let's Learn</h2>
+        <ul>
+            <div class="body">
+                <li class="list"><a href="dbms-terminology.html">Database terminologies</a></li></div><br>
+            <div class="body"><li class="list"><a href="Implementation-of-database.html">Implementation of Database</a></li></div><br>
+            <div class="body"><li class="list"><a href="sqlcodes.html">SQL Codes</a></li></div><br>
+        </ul>
+      </div>
+ </div>
 </body>
 </html>
