@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keys used in SQL</title>
+</head>
+<body>
+    <style>
+    body{
+        background-color: #5d0703;
+    }
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 30px;
+        background-color: #fff;
+    }
+    h1, p {
+        text-align: center;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .header {
+        margin-top: 20px;
+    }
+    
+    .box{
+        background-color: #a4647f;
+        height: 5px;
+        padding-top:0px;
+}
+    
+    p{
+        text-align: justify;
+    }
+
+    h2{
+        padding-top: 0px;
+        line-height:10px;
+        font-family: 'Times New Roman', Times, serif;
+        color: #7d2941;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: poppins;
+        background-color:#f8d8d8;
+        line-height: 1.6;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 20px auto;
+        background-color:#fcedf4;
+        border-radius: 8px;
+        box-shadow: 0 0 30px #4d1726;
+        padding: 20px;
+        padding-right: 60px;
+    }
+
+    .header {
+        padding: 0px 0;
+        color: #1a181b;
+        border-radius: 8px 8px 0 0;
+    }
+.h1color{
+background:rgb(206, 90, 123);
+height:8vh;
+}
+h1{
+align-items:center;
+padding-top:20px;
+}
+ li{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:600; color: #7d2941;; list-style: none; font-size:20px;
+ }   
+</style>
+</head>
+<body>
+<h2>Day 2</h2>
+<div class="box"> </div>
+<div class="container">
+    <div class="header">
+        <div class="h1color">
+        <h1 style="color: #4b0d1f;">KEYS</h1></div>
+        <ul>
+            <li style="font-weight:600; list-style: none; font-size:23px">KEYS USED IN DBMS</li>
+            <li style="font-weight:600; list-style: none; font-size:20px">What is a key?</li>
+            <p>Keys are one of the basic requirements of the relational database model. It is widely used to identify the rows uniquely in the table.</p>
+            <HR>
+                <li style="font-weight:600; list-style: none; font-size:20px">Candidate key</li>
+                <p>The minimal set of attributes that can uniquely identify a tuple is known as a candidate key. For example: serial number, ID number, etc. It is one of the keys with no repeated data. It is a minimal set of attributes that can uniquely identify a record. It can contain unique values. A table can contain multiple candidate keys.</p>
+                <HR>
+                <li style="font-weight:600; list-style: none; font-size:20px">Primary key</li>
+                <p>There can only exist one primary key in a table. There can be more than one candidate key in relation out of which one can be chosen as the primary key. It is a unique key. It can identify only one record at a time. It cannot be null.</p>
+                <HR>
+                <li style="font-weight:600; list-style: none; font-size:20px">Super key</li>
+                <p>The set of attributes that can uniquely identify a tuple is known as super key. A super key is a group of single or multiple keys that identifies rows in a column. It supports null value.</p>
+                <HR>
+                <li style="font-weight:600; list-style: none; font-size:20px">Alternate key</li>
+                <p>The candidate key other than the primary key is called an alternate key. IN other words, all the keys which are not primary keys are called alternate keys. It is a secondary key. It contains two or more fields to identify two or more records. Those values are repeated.</p>
+                <HR>
+                <li style="font-weight:600; list-style: none; font-size:20px">Foreign key</li>
+                <p>If an attribute can only take the values which are present as values of some other attribute, it will be a foreign key to the attribute to which it refers. The relation which is being referenced is called referenced relation and the corresponding attribute is called referenced attribute. It acts as a primary key in one table and it acts as secondary key in another table.</p>
+                <HR>
+                <li style="font-weight:600; list-style: none; font-size:20px">Composite key</li>
+                <p>Sometimes, a table might not have a single column attribute that uniquely identifies all the records of a table. To uniquely identify rows of a table, a combination of two or more columns or attributes can be used. It acts as a primary key if there is no primary key in the table. Two or more attributes are used together to make a composite key.</p>
+                    <HR>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
+</div> 
+</body>
+</html>
