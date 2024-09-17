@@ -116,7 +116,6 @@ padding-top:20px;
                  if (file == NULL) return 1;
                  char readChar = fgetc(file);
                  printf("Character read from file: %c\n", readChar);
-                4
                  fclose(file);
                  return 0;
                 }
@@ -132,7 +131,6 @@ padding-top:20px;
                 int main() {
                  int number;
                  FILE *file;
-                5
                  file = fopen("output.txt", "w");
                  if (file == NULL) return 1;
                  printf("Enter a number: ");
@@ -269,9 +267,6 @@ padding-top:20px;
                 printf("Character at 10th position: %c\n", ch);
                 } else {
                 printf("There is no character at the 10th position.\n");
-               
-                8
-               
                 }
                 fclose(file);
                 return 0;
