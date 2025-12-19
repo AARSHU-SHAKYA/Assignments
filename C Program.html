@@ -106,12 +106,12 @@ padding-top:20px;
                 {
                  char ch;
                  FILE *file;
-                 file = fopen("output.txt", "w");
+                 file = fopen("output.txt", "w");//opens file 
                  if (file == NULL) return 1;
                  printf("Enter a character: ");
                  ch = getchar();
-                 fputc(ch, file);
-                 fclose(file);
+                 fputc(ch, file);//puts the character in  the opened file 
+                 fclose(file);//terminates the program execution 
                  file = fopen("output.txt", "r");
                  if (file == NULL) return 1;
                  char readChar = fgetc(file);
@@ -131,17 +131,17 @@ padding-top:20px;
                 int main() {
                  int number;
                  FILE *file;
-                 file = fopen("output.txt", "w");
+                 file = fopen("output.txt", "w");//opening file 
                  if (file == NULL) return 1;
                  printf("Enter a number: ");
                  scanf("%d", &number);
-                 putw(number, file);
+                 putw(number, file);//storing the value of number into file
                  fclose(file);
                  file = fopen("output.txt", "r");
                  if (file == NULL) return 1;
-                 int readNumber = getw(file);
+                 int readNumber = getw(file);//storing the file in integer readNumber
                  printf("Number read from file: %d\n", readNumber);
-                 fclose(file);
+                 fclose(file);//closing the file 
                  return 0;
                 }
             </pre>
@@ -157,7 +157,7 @@ padding-top:20px;
                 int main() {
                 char str[100];
                 FILE *file;
-                file = fopen("sample.txt", "w");
+                file = fopen("sample.txt", "w");//opening of file 
                 if (file == NULL) return 1;
                 printf("Enter a string: ");
                 fgets(str, sizeof(str), stdin);
@@ -182,8 +182,8 @@ padding-top:20px;
                 #include <stdio.h>
                 int main() {
                 FILE *source;
-                source = fopen("sample.txt", "w");
-                fprintf(source,"this is my file");
+                source = fopen("sample.txt", "w");//here scource acts as the file pointer 
+                fprintf(source,"this is my file");//opening file and storing value (this is my file in the opened file i.e., sample.txt)
                 fclose(source);
                 FILE *destination;
                 char ch;
