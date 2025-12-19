@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Keys used in SQL</title>
+    <title>Data Communication and Networking</title>
 </head>
 <body>
     <style>
@@ -107,21 +107,36 @@ padding-top:20px;
                 <HR>
 
                 <li style="font-weight:600; list-style: none; font-size:20px">Block diagram of communication system/Model</li>
-<img src="">
-                <p>There can only exist one primary key in a table. There can be more than one candidate key in relation out of which one can be chosen as the primary key. It is a unique key. It can identify only one record at a time. It cannot be null.</p>
+  <img src="images/Block Diagram .png" height="400px" width="700px"></img>
                 <HR>
-                <li style="font-weight:600; list-style: none; font-size:20px">Super key</li>
-                <p>The set of attributes that can uniquely identify a tuple is known as super key. A super key is a group of single or multiple keys that identifies rows in a column. It supports null value.</p>
+                <li style="font-weight:600; list-style: none; font-size:20px">Communication Mode</li>
+                <p>Based on the flow of direction of communication. Communication has 3 modes. <br>
+
+1.	Simplex: It is unidirectional mode of communication on which sender always sends the data and receiver receives it. In this mode receiver cannot send the data. For example, radio television, loudspeaker, etc.<br>
+
+2.	Half duplex: It is the bidirectional mode of communication in which sender can send the data and receives the data as well and vice versa but only one at a time that means sender is not allowed to receive data while it is sending data. For e.g., walkie talkie, wireless microphone, etc.<br>
+
+3.	Full duplex: It is the bidirectional mode of communication in which both sender and receiver can send and receive data simultaneously. For e.g., mobile phones, telephone etc.<br>
+
+</p>
                 <HR>
-                <li style="font-weight:600; list-style: none; font-size:20px">Alternate key</li>
-                <p>The candidate key other than the primary key is called an alternate key. IN other words, all the keys which are not primary keys are called alternate keys. It is a secondary key. It contains two or more fields to identify two or more records. Those values are repeated.</p>
+                <li style="font-weight:600; list-style: none; font-size:20px">Computer Netwrok and its Types </li>
+                <p>From the very beginning there is an emerging trend of making communication. People use computer to share different data and information at different location. Thus, the group of computers interconnected with each other through any type of transportation media either wired or wireless in order to share different hardware, software and other resources is known as computer network. The concept of connected computer sharing resources is called networking. We use different bounded media like twisted pair cable, coaxial cable and fiber optics cable or unbounded media like microwave, radio wave, infrared, satellites to establish connection between different computers at different location.</p>
+                <br>
+                <li style="font-weight:600; list-style: none; font-size:20px">Advantages</li>
+                <p>1.Resource sharing <br>
+Sharing a resource is an important area in which a network exceeds the stand-alone computer. It is used to share hardware and software.<br>
+2.	Centralized control and management<br>
+The network provides centralized control and management. The entire computers in the network are normally connected to a server, which defines the policy and security measures for the resources used by the networks members.<br>
+3.	Speedy and fast effective communication<br>
+Since all the computer in a network are interconnected with each other, one can send and receive messages within the computer in just few seconds.<br>
+4.	Backup and Recovery<br>
+Since all the computer are connected with server, it helps to maintain backup at periodic interval. It keeps extra copy so that data and the formation can be recovered when lost accidentally or intentionally.<br>
+5.	Flexible Access<br>
+In a network, computers can easily access files from other computer for easy access.<br>
+</p>
                 <HR>
-                <li style="font-weight:600; list-style: none; font-size:20px">Foreign key</li>
-                <p>If an attribute can only take the values which are present as values of some other attribute, it will be a foreign key to the attribute to which it refers. The relation which is being referenced is called referenced relation and the corresponding attribute is called referenced attribute. It acts as a primary key in one table and it acts as secondary key in another table.</p>
-                <HR>
-                <li style="font-weight:600; list-style: none; font-size:20px">Composite key</li>
-                <p>Sometimes, a table might not have a single column attribute that uniquely identifies all the records of a table. To uniquely identify rows of a table, a combination of two or more columns or attributes can be used. It acts as a primary key if there is no primary key in the table. Two or more attributes are used together to make a composite key.</p>
-                    <HR>
+            
         </ul>
     </div>
 </div>
