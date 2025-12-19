@@ -86,13 +86,14 @@ padding-top:20px;
 </style>
 </head>
 <body>
-<h2>Day 4</h2>
+<h2>Data</h2>
 <div class="box"> </div>
 <div class="container">
     <div class="header">
         <div class="h1color">
         <h1 style="color: #4b0d1f;">Data Communication and Networking</h1></div>
         <ul>
+<a href="notes.html"></a>
             <li style="font-weight:600; list-style: none; font-size:23px">Introduction to Data Communication and Networking</li>
     
             <p>The term communication refers to the sending, receiving, and processing of information by electronic media. It started with wire telegraphy in the eighteen forties (1840s), developing with telephony some decades later and radio at the beginning of this century. In the past, people used pigeon to send and receive message for long distance. Later on, invention of telegram, telegraph and telephone came along. Where, word ‘tele’ means large distance and communication means exchange or sharing ideas, views and information with other individual or machine. Thus, the exchange of data and information between sender and receiver through any given medium following a common rule is known as communication. So, telecommunication is the art of communicating at a distance. Telephone, radio and television are the main and popular media of tele-communication.</p>
