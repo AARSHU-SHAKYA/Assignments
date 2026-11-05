@@ -1,2 +1,3 @@
-# Assignments
-This website contains Data Communication Chapter explanation and some assignments for Grade 12 Computer Science Curriculum. 
+# Grade 12 Assignments: Data Communication
+
+This repository contains my Grade 12 academic assignments, specifically focusing on the **Data Communication** chapter.
