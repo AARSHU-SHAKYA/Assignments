@@ -1,2 +1,2 @@
 # Assignments
-This contains chapters explanation and assignments for Class 12 Computer Science. 
+This website contains Data Communication Chapter explanation and some assignments for Grade 12 Computer Science Curriculum. 
