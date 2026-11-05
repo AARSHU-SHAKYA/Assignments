@@ -1,3 +1,3 @@
-# Grade 12 Assignments: Data Communication
+# Grade 12 Assignments
 
-This repository contains my Grade 12 academic assignments, specifically focusing on the **Data Communication** chapter.
+This repository contains some of my Grade 12 academic assignments, alongside notes on the **Data Communication** chapter.
